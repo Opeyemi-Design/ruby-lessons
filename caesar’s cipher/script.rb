@@ -17,3 +17,6 @@ end
 text = "What a string"
 shift = 5
 encrypted_text = caesar_cipher(text, shift)
+
+puts "Original text: #{text}"
+puts "Encrypted text: #{encrypted_text}"
